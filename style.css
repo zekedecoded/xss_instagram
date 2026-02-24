@@ -1,0 +1,58 @@
+html, body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+.page-wrapper {
+    display: flex;
+        flex-direction: column;
+        height: 100vh;
+}
+.main-row {
+    flex: 1;
+    overflow: hidden;
+}
+.grad-color {
+    background: linear-gradient(90deg, #FF4B2B, #FF0663, #CF00BA);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.img-size {
+    width: 500px;
+    height: 456px;
+}
+
+.form-floating .form-control {
+    height: 56px !important;
+    padding-top: 1.625rem !important;
+    padding-bottom: 0.625rem !important;
+}
+
+.form-floating > label {
+    padding-top: 1rem !important;
+}
+
+.no-link-style {
+    color: inherit;
+    text-decoration: none;
+}
+
+.no-link-style:hover {
+    text-decoration: underline;
+}
+
+.bg-dark-cs {
+    background-color: #0c1014;
+}
+
+.color-gray-cs {
+    color: #8e8e8e;
+}
+
+.horizontal-black {
+    border: none;
+    border-top: 2px solid #8e8e8e;
+    width: 100%;
+}

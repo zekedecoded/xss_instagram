@@ -1,0 +1,22 @@
+.no-link-style {
+    color: inherit;
+    text-decoration: none;
+}
+
+.no-link-style:hover {
+    text-decoration: underline;
+}
+
+.bg-dark-cs {
+    background-color: #0c1014;
+}
+
+.color-gray-cs {
+    color: #8e8e8e;
+}
+
+.horizontal-black {
+    border: none;
+    border-top: 2px solid #8e8e8e;
+    width: 100%;
+}
